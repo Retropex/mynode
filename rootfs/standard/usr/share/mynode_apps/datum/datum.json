@@ -36,7 +36,7 @@
     "show_on_homepage": true,
     "show_on_status_page": true,
     "hide_status_icon": false,
-    "app_tile_name": "Datum",
+    "app_tile_name": "DATUM",
     "app_tile_running_status_text": "Running",
     "app_tile_button_text": "Info",
     "app_tile_button_href": "/app/datum/info",
@@ -46,7 +46,7 @@
             "heading": "Instructions",
             "content": [
                 "⚠️ Dont forget to add your Bitcoin address in the GUI otherwise DATUM won't start.",
-        		"The user is \"admin\" and the password is \"bolt\"",
+        		"The user is \"admin\" and the password is the same as bitcoin RPC password",
                 "If you want to mine with OEAN then enter these informations into your miners:",
                 "Stratum URL: <Your node IP>:23334",
                 "User: <Your Bitcoin address>",

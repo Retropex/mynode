@@ -56,7 +56,7 @@ echo "{
 }
 " > datum_config.json
 
-jq --arg BTCPSW "$BTCPSW" '.bitcoind.rpcpassword = $BTCPSW' datum_config.json > datum_config.json.tmp && mv datum_config.json.tmp datum_config.json
+jq --arg BTCPSW "$BTCPSW" '.bitcoind.rpcpassword = $BTCPSW | .api.admin_password = $BTCPSW' datum_config.json > datum_config.json.tmp && mv datum_config.json.tmp datum_config.json
 
 cp datum_config.json /mnt/hdd/mynode/datum
 
